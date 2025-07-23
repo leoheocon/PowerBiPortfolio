@@ -1,0 +1,76 @@
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === VSCode ===
+.vscode/
+
+# === Virtual Environments ===
+.env/
+.venv/
+env/
+venv/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === OS Junk Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs & Temp Files ===
+*.log
+*.tmp
+*.bak
+
+# === Output Folders ===
+/result/
+resul/
+output/
+outputs/
+cache/
+Model export/
+
+# === Excel & CSV Data Files ===
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+*.zip
+*.7z
+*.bim
+
+
+
+# === Secret/Key Files ===
+*.key
+*.pem
+*.p12
+*.crt
+
+# === Pip Temp Files ===
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Pytest Cache ===
+.cache/
+.pytest_cache/
+
+# === Coverage Reports ===
+htmlcov/
+coverage.xml
+*.cover
+
+# === MyPy ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# === Test Reports ===
+test-results/
+
+# === Database Dumps ===
+*.sqlite
+*.db
+*.sql
