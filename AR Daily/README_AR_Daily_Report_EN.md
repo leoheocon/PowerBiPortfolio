@@ -72,8 +72,31 @@ The report uses 227 measures ranging from basic, intermediate, to complex aggreg
 
 ---
 
+### 5.Integration with Power Automate
+
+In addition to reporting and analysis, this Power BI model also serves as a data backend for Power Automate workflows.
+
+Usage Highlights:
+
+- Scheduled Email Automation: Key metrics and daily AR balances are extracted and sent automatically to customers, sales, and finance teams.
+
+- Dynamic Filtering: Data is filtered by company, customer group, and other criteria in Power BI, allowing Power Automate to send tailored messages.
+
+- Stable & Centralized Source: Instead of querying ERP directly, workflows use structured output from Power BI, reducing risk of performance issues or data mismatches.
+
+Use Cases:
+
+- Daily AR summaries to internal teams.
+
+- Reminder emails to customers for overdue balances.
+
+- Real-time alert triggers based on balance thresholds.
+
+This design enables the AR_Daily report to function not just as a visual dashboard, but as a central operational node in the receivables communication workflow.
+
 ## Value and Potential for Expansion
 
 - Can be used as a standard framework for AR reporting in large enterprises.
 - Can be expanded to include metrics like aging reports, credit limits, payment behavior...
 - Can be extended to cover Accounts Payable (AP), Inventory, Cash Flow reporting...
+
